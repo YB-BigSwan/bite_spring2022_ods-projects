@@ -1,0 +1,30 @@
+html {
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top;
+	background-image: url(dickinson-background.jpg);
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+p,
+h1,
+h2 {
+	color: rgba(255, 255, 255, 0.87);
+	font-family: garamond, serif;
+	padding: 20px 20px 20px 20px;
+}
+
+/* blurred box */
+div {
+	width: max-content;
+	height: max-content;
+	border-radius: 20px;
+	background: inherit;
+	backdrop-filter: blur(10px);
+}
