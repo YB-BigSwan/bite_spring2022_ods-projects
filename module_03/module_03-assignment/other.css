@@ -1,0 +1,24 @@
+html {
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top;
+	background-image: url(img/dickinson-background.jpg);
+}
+
+h1,
+h2,
+ul {
+	color: antiquewhite;
+}
+
+table {
+	color: antiquewhite;
+	background: inherit;
+	border: 1px dotted antiquewhite;
+}
+input[type='text'] {
+	width: 20px;
+	background: inherit;
+	border: 1px solid antiquewhite;
+	color: antiquewhite;
+}
