@@ -1,0 +1,87 @@
+body {
+	max-width: 60em;
+	margin: 0 auto 0 auto;
+}
+
+table,
+th,
+td {
+	border-collapse: collapse;
+	border: 1px solid black;
+	padding: 1em;
+	/* translucent grey background color to help table stand out */
+	background-color: rgba(206, 206, 206, 0.459);
+}
+
+/* link styling */
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blueviolet;
+	text-decoration: underline;
+	/* white background on hover to highlight links*/
+	background-color: whitesmoke;
+}
+
+/* Home and Lenore page styling */
+.main {
+	background-image: url(../images/background3.jpeg);
+	background-size: cover;
+	color: black;
+}
+
+/* Tell Tale Heart styling */
+.tth {
+	background-image: url(../images/background3.jpeg);
+	background-size: cover;
+	color: black;
+}
+
+/* Mobile */
+@media screen and (max-width: 786px) {
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	p,
+	a {
+		font-size: 0.9em;
+	}
+	table,
+	th,
+	td {
+		width: 40%;
+		height: 20%;
+		background-color: aqua;
+	}
+}
+
+/* PC */
+@media screen and (min-width: 796px) {
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2.2em;
+	}
+
+	p,
+	a {
+		font-size: 1.2em;
+	}
+	table,
+	th,
+	td {
+		width: 40%;
+		height: 20%;
+		background-color: rgba(206, 206, 206, 0.459);
+	}
+}
