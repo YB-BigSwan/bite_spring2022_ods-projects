@@ -1,0 +1,41 @@
+body {
+	max-width: 60em;
+	margin: 0 auto 0 auto;
+}
+
+table,
+th,
+td {
+	border-collapse: collapse;
+	border: 1px solid whitesmoke;
+	padding: 1em;
+	/* translucent grey background color to help table stand out */
+	background-color: rgba(66, 66, 66, 0.459);
+}
+
+/* link styling */
+a {
+	color: aquamarine;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blueviolet;
+	text-decoration: underline;
+	/* white background on hover to highlight links*/
+	background-color: whitesmoke;
+}
+
+/* Home and Lenore page styling */
+.main {
+	background-image: url(../images/background2.jpeg);
+	background-size: cover;
+	color: whitesmoke;
+}
+
+/* Tell Tale Heart styling */
+.tth {
+	background-image: url(../images/background1.jpg);
+	background-size: cover;
+	color: whitesmoke;
+}
